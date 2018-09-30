@@ -1,19 +1,19 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class TestFelder extends SMG_Controller {
+class TestFelderSilverman extends SMG_Controller {
 	/**
 	 *
 	 * @author josego
 	 */
 	public function __construct(){
 		parent::__construct();
-		$this->load->model('testFelder_m', 'testFelder');
+		$this->load->model('testFelderSilverman_m', 'testFelderSilverman');
 	}
 
 	public function index()
 	{
-		$this->load->view('test_felder');
+		$this->load->view('test_felder_silverman');
 	}
 
 	public function encuesta1()
@@ -30,10 +30,11 @@ class TestFelder extends SMG_Controller {
 		}
 
 		// Insertar la encuenta test felder en la base de datos.
-		if($this->testFelder->insertarTestFelder($datos)){
+		if($this->testFelderSilverman->insertarTestFelderSilverman($datos)){
 			echo "Inserto correctamente.";
 		}else{
 			 echo "No inserto correctamente.";
 		}
+		$this->load->view('test_felder_silverman');
 	}
 }

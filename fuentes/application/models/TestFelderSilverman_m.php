@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class TestFelder_M extends CI_Model {
+class TestFelderSilverman_M extends CI_Model {
     /**
      * Modelo para manejo del test de felder.
      * @author josego
@@ -14,7 +14,7 @@ class TestFelder_M extends CI_Model {
      * @param Array $p_datos
      * @return boolean
      */
-    public function insertarTestFelder($p_datos){
+    public function insertarTestFelderSilverman($p_datos){
     	if($this->db->insert('mdl_user_learning_style_felder', $p_datos)){
     		return $this->db->insert_id();
     	}
@@ -30,4 +30,4 @@ class TestFelder_M extends CI_Model {
     	return $this->db->query('select FOUND_ROWS() as found_rows')->row()->found_rows;
     }
 }
-/* End of TestFelder_M.php */
+/* End of TestFelderSilverman_M.php */

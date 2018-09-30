@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container cabecera">
-        <h1>Test Felder</h1>
+        <h1>Test Felder-Silverman</h1>
     </div>
     <div class="container">
         <!-- Menu -->
@@ -16,7 +16,7 @@
         <br>
     </div>
     <div class="container">
-        <form action="testFelder/encuesta1" method="post">
+        <form action="testFelderSilverman/encuesta1" method="post">
             <div class="form-group">
                 <label for="p1" class="control-label">1. Entiendo mejor algo</label>
                 <select class="form-control" name="p1" required>
@@ -36,7 +36,7 @@
             </div>
 
             <div class="form-group">
-                <label for="p3" class="control-label">3. Cuando pienso acerca de lo que hice ayer, es más probable que lo haga sobre
+                <label for="p3" class="control-label">3. Cuando pienso acerca de lo que hice ayer, es m&aacute;s probable que lo haga sobre
 la base de</label>
                 <select class="form-control" name="p3" required>
                     <option value=""></option>
@@ -65,20 +65,20 @@ completa.</option>
             </div>
 
             <div class="form-group">
-                <label for="p6" class="control-label">6. Si yo fuera profesor, yo preferiría dar un curso</label>
+                <label for="p6" class="control-label">6. Si yo fuera profesor, yo preferir&iacute;a dar un curso</label>
                 <select class="form-control" name="p6" required>
                     <option value=""></option>
 .                   <option value="a">(a) que trate sobre hechos y situaciones reales de la vida.</option>
-                    <option value="b">(b) que trate con ideas y teorías</option>
+                    <option value="b">(b) que trate con ideas y teor&iacute;as</option>
                 </select>
             </div>
 
             <div class="form-group">
-                <label for="p7" class="control-label">7. Prefiero obtener información nueva de</label>
+                <label for="p7" class="control-label">7. Prefiero obtener informaci&oacute;n nueva de</label>
                 <select class="form-control" name="p7" required>
                     <option value=""></option>
-                    <option value="a">(a) imágenes, diagramas, gráficas o mapas.</option>
-                    <option value="b">(b) instrucciones escritas o información verbal.</option>
+                    <option value="a">(a) im&aacute;genes, diagramas, gr&aacute;ficas o mapas.</option>
+                    <option value="b">(b) instrucciones escritas o informaci&oacute;n verbal.</option>
                 </select>
             </div>
 
@@ -92,7 +92,7 @@ completa.</option>
             </div>
 
             <div class="form-group">
-                <label for="p9" class="control-label">9. En un grupo de estudio que trabaja con un material difícil, es más probable que</label>
+                <label for="p9" class="control-label">9. En un grupo de estudio que trabaja con un material dif&iacute;cil, es m&aacute;s probable que</label>
                 <select class="form-control" name="p9" required>
                     <option value=""></option>
                     <option value="a">(a) participe y contribuya con ideas.</option>
@@ -101,7 +101,7 @@ completa.</option>
             </div>
 
             <div class="form-group">
-                <label for="p10" class="control-label">10. Es más fácil para mí</label>
+                <label for="p10" class="control-label">10. Es m&aacute;s f&aacute;cil para m&iacute;</label>
                 <select class="form-control" name="p10" required>
                     <option value=""></option>
                     <option value="a">(a) aprender hechos.</option>
@@ -110,20 +110,20 @@ completa.</option>
             </div>
 
             <div class="form-group">
-                <label for="p11" class="control-label">11. En un libro con muchas imágenes y gráficas es más probable que</label>
+                <label for="p11" class="control-label">11. En un libro con muchas im&aacute;genes y gr&aacute;ficas es m&aacute;s probable que</label>
                 <select class="form-control" name="p11" required>
                     <option value=""></option>
-                    <option value="a">(a) revise cuidadosamente las imágenes y las gráficas.</option>
+                    <option value="a">(a) revise cuidadosamente las im&aacute;genes y las gr&aacute;ficas.</option>
                     <option value="b">(b) me concentre en el texto escrito.</option>
                 </select>
             </div>
 
             <div class="form-group">
-                <label for="p12" class="control-label">12. Cuando resuelvo problemas de matemáticas</label>
+                <label for="p12" class="control-label">12. Cuando resuelvo problemas de matem&aacute;ticas</label>
                 <select class="form-control" name="p12" required>
                     <option value=""></option>
                     <option value="a">(a) generalmente trabajo sobre las soluciones con un paso a la vez.</option>
-                    <option value="b">(b) frecuentemente sé cuales son las soluciones, pero luego tengo dificultad
+                    <option value="b">(b) frecuentemente s&eacute; cuales son las soluciones, pero luego tengo dificultad
 para imaginarme los pasos para llegar a ellas.</option>
                 </select>
             </div>
@@ -138,10 +138,10 @@ para imaginarme los pasos para llegar a ellas.</option>
             </div>
 
             <div class="form-group">
-                <label for="p14" class="control-label">14. Cuando leo temas que no son de ficción, prefiero</label>
+                <label for="p14" class="control-label">14. Cuando leo temas que no son de ficci&oacute;n, prefiero</label>
                 <select class="form-control" name="p14" required>
                     <option value=""></option>
-                    <option value="a">(a) algo que me enseñe nuevos hechos o me diga como hacer algo.</option>
+                    <option value="a">(a) algo que me ense&ntilde;e nuevos hechos o me diga como hacer algo.</option>
                     <option value="b">(b) algo que me de nuevas ideas en que pensar.</option>
                 </select>
             </div>
@@ -150,7 +150,7 @@ para imaginarme los pasos para llegar a ellas.</option>
                 <label for="p15" class="control-label">15. Me gustan los maestros</label>
                 <select class="form-control" name="p15" required>
                     <option value=""></option>
-                    <option value="a">(a) que utilizan muchos esquemas en el pizarrón.</option>
+                    <option value="a">(a) que utilizan muchos esquemas en el pizarr&oacute;n.</option>
                     <option value="b">(b) que toman mucho tiempo para explicar.</option>
                 </select>
             </div>
@@ -166,10 +166,10 @@ tengo que regresar y encontrar los incidentes que los demuestran.</option>
             </div>
 
             <div class="form-group">
-                <label for="p17" class="control-label">17. Cuando comienzo a resolver un problema de tarea, es más probable que</label>
+                <label for="p17" class="control-label">17. Cuando comienzo a resolver un problema de tarea, es m&aacute;s probable que</label>
                 <select class="form-control" name="p17" required>
                     <option value=""></option>
-                    <option value="a">(a) comience a trabajar en su solución inmediatamente.</option>
+                    <option value="a">(a) comience a trabajar en su soluci&oacute;n inmediatamente.</option>
                     <option value="b">(b) primero trate de entender completamente el problema.</option>
                 </select>
             </div>
@@ -179,7 +179,7 @@ tengo que regresar y encontrar los incidentes que los demuestran.</option>
                 <select class="form-control" name="p18" required>
                     <option value=""></option>
                     <option value="a">(a) certeza.</option>
-                    <option value="b">(b) Teoría.</option>
+                    <option value="b">(b) Teor&iacute;a.</option>
                 </select>
             </div>
 
@@ -193,11 +193,11 @@ tengo que regresar y encontrar los incidentes que los demuestran.</option>
             </div>
 
             <div class="form-group">
-                <label for="p20" class="control-label">20. Es más importante para mí que un profesor</label>
+                <label for="p20" class="control-label">20. Es m&aacute;s importante para m&iacute; que un profesor</label>
                 <select class="form-control" name="p20" required>
                     <option value=""></option>
                     <option value="a">(a) exponga el material en pasos secuenciales claros.</option>
-                    <option value="b">(b) me dé un panorama general y relacione el material con otros temas.</option>
+                    <option value="b">(b) me d&eacute; un panorama general y relacione el material con otros temas.</option>
                 </select>
             </div>
 
@@ -232,8 +232,8 @@ tengo que regresar y encontrar los incidentes que los demuestran.</option>
                 <label for="p24" class="control-label">24. Aprendo</label>
                 <select class="form-control" name="p24" required>
                     <option value=""></option>
-                    <option value="a">(a) a un paso constante. Si estudio con ahínco consigo lo que deseo.</option>
-                    <option value="b">(b) en inicios y pausas. Me llego a confundir y súbitamente lo entiendo.</option>
+                    <option value="a">(a) a un paso constante. Si estudio con ah&iacute;nco consigo lo que deseo.</option>
+                    <option value="b">(b) en inicios y pausas. Me llego a confundir y s&uacute;bitamente lo entiendo.</option>
                 </select>
             </div>
 
@@ -247,7 +247,7 @@ tengo que regresar y encontrar los incidentes que los demuestran.</option>
             </div>
 
             <div class="form-group">
-                <label for="p26" class="control-label">26. Cuando leo por diversión, me gustan los escritores que</label>
+                <label for="p26" class="control-label">26. Cuando leo por diversi&oacute;n, me gustan los escritores que</label>
                 <select class="form-control" name="p26" required>
                     <option value=""></option>
                     <option value="a">(a) dicen claramente los que desean dar a entender.</option>
@@ -256,7 +256,7 @@ tengo que regresar y encontrar los incidentes que los demuestran.</option>
             </div>
 
             <div class="form-group">
-                <label for="p27" class="control-label">27. Cuando veo un esquema o bosquejo en clase, es más probable que recuerde</label>
+                <label for="p27" class="control-label">27. Cuando veo un esquema o bosquejo en clase, es m&aacute;s probable que recuerde</label>
                 <select class="form-control" name="p27" required>
                     <option value=""></option>
                     <option value="a">(a) la imagen.</option>
@@ -265,7 +265,7 @@ tengo que regresar y encontrar los incidentes que los demuestran.</option>
             </div>
 
             <div class="form-group">
-                <label for="p28" class="control-label">28. Cuando me enfrento a un cuerpo de información</label>
+                <label for="p28" class="control-label">28. Cuando me enfrento a un cuerpo de informaci&oacute;n</label>
                 <select class="form-control" name="p28" required>
                     <option value=""></option>
                     <option value="a">(a) me concentro en los detalles y pierdo de vista el total de la misma.</option>
@@ -274,7 +274,7 @@ tengo que regresar y encontrar los incidentes que los demuestran.</option>
             </div>
 
             <div class="form-group">
-                <label for="p29" class="control-label">29. Recuerdo más fácilmente</label>
+                <label for="p29" class="control-label">29. Recuerdo m&aacute;s f&aacute;cilmente</label>
                 <select class="form-control" name="p29" required>
                     <option value=""></option>
                     <option value="a">(a) algo que he hecho.</option>
@@ -292,16 +292,16 @@ tengo que regresar y encontrar los incidentes que los demuestran.</option>
             </div>
 
             <div class="form-group">
-                <label for="p31" class="control-label">31. Cuando alguien me enseña datos, prefiero</label>
+                <label for="p31" class="control-label">31. Cuando alguien me ense&ntilde;a datos, prefiero</label>
                 <select class="form-control" name="p31" required>
                     <option value=""></option>
-                    <option value="a">(a) gráficas.</option>
-                    <option value="b">(b) resúmenes con texto.</option>
+                    <option value="a">(a) gr&aacute;ficas.</option>
+                    <option value="b">(b) res&uacute;menes con texto.</option>
                 </select>
             </div>
 
             <div class="form-group">
-                <label for="p32" class="control-label">32. Cuando escribo un trabajo, es más probable que</label>
+                <label for="p32" class="control-label">32. Cuando escribo un trabajo, es m&aacute;s probable que</label>
                 <select class="form-control" name="p32" required>
                     <option value=""></option>
                     <option value="a">(a) lo haga ( piense o escriba) desde el principio y avance.</option>
@@ -329,11 +329,11 @@ grupo para comparar las ideas.</option>
             </div>
 
             <div class="form-group">
-                <label for="p35" class="control-label">35. Cuando conozco gente en una fiesta, es más probable que recuerde</label>
+                <label for="p35" class="control-label">35. Cuando conozco gente en una fiesta, es m&aacute;s probable que recuerde</label>
                 <select class="form-control" name="p35" required>
                     <option value=""></option>
-                    <option value="a">(a) cómo es su apariencia.</option>
-                    <option value="b">(b) lo que dicen de sí mismos.</option>
+                    <option value="a">(a) c&oacute;mo es su apariencia.</option>
+                    <option value="b">(b) lo que dicen de s&iacute; mismos.</option>
                 </select>
             </div>
 
@@ -341,8 +341,8 @@ grupo para comparar las ideas.</option>
                 <label for="p36" class="control-label">36. Cuando estoy aprendiendo un tema, prefiero</label>
                 <select class="form-control" name="p36" required>
                     <option value=""></option>
-                    <option value="a">(a) mantenerme concentrado en ese tema, aprendiendo lo más que pueda de
-él.</option>
+                    <option value="a">(a) mantenerme concentrado en ese tema, aprendiendo lo m&aacute;s que pueda de
+&eacute;l.</option>
                     <option value="b">(b) hacer conexiones entre ese tema y temas relacionados.</option>
                 </select>
             </div>
@@ -352,16 +352,16 @@ grupo para comparar las ideas.</option>
                 <select class="form-control" name="p37" required>
                     <option value=""></option>
                     <option value="a">(a) abierto.</option>
-                    <option value="b">(b) Reservado.</option>
+                    <option value="b">(b) reservado.</option>
                 </select>
             </div>
 
             <div class="form-group">
-                <label for="p38" class="control-label">38. Prefiero cursos que dan más importancia a</label>
+                <label for="p38" class="control-label">38. Prefiero cursos que dan m&aacute;s importancia a</label>
                 <select class="form-control" name="p38" required>
                     <option value=""></option>
-                    <option value="a">(a) material concreto (hechos,datos).</option>
-                    <option value="b">(b) material abstracto (conceptos, teorías).</option>
+                    <option value="a">(a) material concreto (hechos, datos).</option>
+                    <option value="b">(b) material abstracto (conceptos, teor&iacute;as).</option>
                 </select>
             </div>
 
@@ -369,23 +369,23 @@ grupo para comparar las ideas.</option>
                 <label for="p39" class="control-label">39. Para divertirme, prefiero</label>
                 <select class="form-control" name="p39" required>
                     <option value=""></option>
-                    <option value="a">(a) ver televisión.</option>
+                    <option value="a">(a) ver televisi&oacute;n.</option>
                     <option value="b">(b) leer un libro.</option>
                 </select>
             </div>
 
             <div class="form-group">
                 <label for="p40" class="control-label">40. Algunos profesores inician sus clases haciendo un bosquejo de lo que
-enseñarán. Esos bosquejos son</label>
+ense&ntilde;ar&aacute;n. Esos bosquejos son</label>
                 <select class="form-control" name="p40" required>
                     <option value=""></option>
-                    <option value="a">(a) algo útiles para mí.</option>
-                    <option value="b">(b) muy útiles para mí.</option>
+                    <option value="a">(a) algo &uacute;tiles para m&iacute;.</option>
+                    <option value="b">(b) muy &uacute;tiles para m&iacute;.</option>
                 </select>
             </div>
 
             <div class="form-group">
-                <label for="p41" class="control-label">41. La idea de hacer una tarea en grupo con una sola calificación para todos</label>
+                <label for="p41" class="control-label">41. La idea de hacer una tarea en grupo con una sola calificaci&oacute;n para todos</label>
                 <select class="form-control" name="p41" required>
                     <option value=""></option>
                     <option value="a">(a) me parece bien.</option>
@@ -394,11 +394,11 @@ enseñarán. Esos bosquejos son</label>
             </div>
 
             <div class="form-group">
-                <label for="p42" class="control-label">42. Cuando hago grandes cálculos</label>
+                <label for="p42" class="control-label">42. Cuando hago grandes c&aacute;lculos</label>
                 <select class="form-control" name="p42" required>
                     <option value=""></option>
                     <option value="a">(a) tiendo a repetir todos mis pasos y revisar cuidadosamente mi trabajo.</option>
-                    <option value="b">(b) me cansa hacer su revisión y tengo que esforzarme para hacerlo.</option>
+                    <option value="b">(b) me cansa hacer su revisi&oacute;n y tengo que esforzarme para hacerlo.</option>
                 </select>
             </div>
 
@@ -406,17 +406,17 @@ enseñarán. Esos bosquejos son</label>
                 <label for="p43" class="control-label">43. Tiendo a recordar lugares en los que he estado</label>
                 <select class="form-control" name="p43" required>
                     <option value=""></option>
-                    <option value="a">(a) fácilmente y con bastante exactitud.</option>
+                    <option value="a">(a) f&aacute;cilmente y con bastante exactitud.</option>
                     <option value="b">(b) con dificultad y sin mucho detalle.</option>
                 </select>
             </div>
 
             <div class="form-group">
-                <label for="p44" class="control-label">44. Cuando resuelvo problemas en grupo, es más probable que yo</label>
+                <label for="p44" class="control-label">44. Cuando resuelvo problemas en grupo, es m&aacute;s probable que yo</label>
                 <select class="form-control" name="p44" required>
                     <option value=""></option>
-                    <option value="a">(a) piense en los pasos para la solución de los problemas.</option>
-                    <option value="b">(b) piense en las posibles consecuencias o aplicaciones de la solución en un
+                    <option value="a">(a) piense en los pasos para la soluci&oacute;n de los problemas.</option>
+                    <option value="b">(b) piense en las posibles consecuencias o aplicaciones de la soluci&oacute;n en un
 amplio rango de campos.</option>
                 </select>
             </div>
