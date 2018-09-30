@@ -1,8 +1,8 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class TestFelderSilverman_M extends CI_Model {
+class TestHowardGardner_M extends CI_Model {
     /**
-     * Modelo para manejo del test de Felder - Silverman.
+     * Modelo para manejo del test de Howard Gardner.
      * @author josego
      */
     public function __construct(){
@@ -14,8 +14,8 @@ class TestFelderSilverman_M extends CI_Model {
      * @param Array $p_datos
      * @return boolean
      */
-    public function insertarTestFelderSilverman($p_datos){
-    	if($this->db->insert('mdl_user_learning_style_felder', $p_datos)){
+    public function insertarHowardGardner($p_datos){
+    	if($this->db->insert('mdl_user_multiple_intelligence', $p_datos)){
     		return $this->db->insert_id();
     	}
     	return false;
@@ -30,4 +30,4 @@ class TestFelderSilverman_M extends CI_Model {
     	return $this->db->query('select FOUND_ROWS() as found_rows')->row()->found_rows;
     }
 }
-/* End of TestFelderSilverman_M.php */
+/* End of TestHowardGardner_M.php */

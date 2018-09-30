@@ -16,7 +16,7 @@
         <br>
     </div>
     <div class="container">
-        <form action="testFelderSilverman/encuesta1" method="post">
+        <form action="testFelderSilverman/encuesta" method="post">
             <div class="form-group">
                 <label for="p1" class="control-label">1. Entiendo mejor algo</label>
                 <select class="form-control" name="p1" required>
@@ -427,9 +427,6 @@ amplio rango de campos.</option>
                 </div>
             </div>
         </form>
-        <!-- <form role="form" action="eventos/agregarEvento" method='post'>
-            <input class="btn btn-primary" type="submit" name="submit" value="Enviar" />
-        </form> -->
     </div>
 </body>
 </html>
