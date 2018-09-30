@@ -1,19 +1,19 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class TestHowardGardner extends SMG_Controller {
+class TestPersonalidadEysenck extends SMG_Controller {
 	/**
 	 *
 	 * @author josego
 	 */
 	public function __construct(){
 		parent::__construct();
-		$this->load->model('testHowardGardner_m', 'testHowardGardner');
+		$this->load->model('TestPersonalidadEysenck_m', 'testPersonalidadEysenck');
 	}
 
 	public function index()
 	{
-		$this->load->view('test_howard_gardner');
+		$this->load->view('test_personalidad_eysenck');
 	}
 
 	public function encuesta()
@@ -21,20 +21,20 @@ class TestHowardGardner extends SMG_Controller {
 		$datos = array(
 			'courseid' => 1,
 			'userid' => 1,
-			'multipleintelligencedatetime' => $this->fecha_hora_actual,
+			'personalitydatetime' => $this->fecha_hora_actual,
 		);
-		$limite_preguntas = 35;
+		$limite_preguntas = 57;
 		for($indice = 1; $indice <= $limite_preguntas; $indice++){
 			$preg = "p" . $indice;
 			$datos[$preg] = $this->input->post($preg, true);
 		}
 
-		// Insertar la encuenta test Howard Gardner en la base de datos.
-		if($this->testHowardGardner->insertar_howard_gardner($datos)){
+		// Insertar la encuenta test personalidad Eysenck en la base de datos.
+		if($this->testPersonalidadEysenck->insertar_personalidad_eyenck($datos)){
 			echo "Inserto correctamente.";
 		}else{
 			 echo "No inserto correctamente.";
 		}
-		$this->load->view('test_howard_gardner');
+		$this->load->view('test_personalidad_eysenck');
 	}
 }

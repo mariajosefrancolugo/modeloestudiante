@@ -1,8 +1,8 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class TestFelderSilverman_M extends CI_Model {
+class TestPersonalidadEysenck_M extends CI_Model {
     /**
-     * Modelo para manejo del test de Felder - Silverman.
+     * Modelo para manejo del test de personalidad de Eysenck.
      * @author josego
      */
     public function __construct(){
@@ -10,12 +10,12 @@ class TestFelderSilverman_M extends CI_Model {
     }
 
     /**
-     * @method insertar_test_felder_silverman
+     *
      * @param Array $p_datos
      * @return boolean
      */
-    public function insertar_test_felder_silverman($p_datos){
-    	if($this->db->insert('mdl_user_learning_style_felder', $p_datos)){
+    public function insertar_personalidad_eyenck($p_datos){
+    	if($this->db->insert('mdl_user_personality', $p_datos)){
     		return $this->db->insert_id();
     	}
     	return false;
@@ -30,4 +30,4 @@ class TestFelderSilverman_M extends CI_Model {
     	return $this->db->query('select FOUND_ROWS() as found_rows')->row()->found_rows;
     }
 }
-/* End of TestFelderSilverman_M.php */
+/* End of TestPersonalidadEysenck_M.php */

@@ -30,7 +30,7 @@ class TestFelderSilverman extends SMG_Controller {
 		}
 
 		// Insertar la encuenta test Felder Silverman en la base de datos.
-		if($this->testFelderSilverman->insertarTestFelderSilverman($datos)){
+		if($this->testFelderSilverman->insertar_test_felder_silverman($datos)){
 			echo "Inserto correctamente.";
 		}else{
 			 echo "No inserto correctamente.";

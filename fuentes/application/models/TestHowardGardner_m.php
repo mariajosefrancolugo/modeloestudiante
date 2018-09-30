@@ -10,11 +10,11 @@ class TestHowardGardner_M extends CI_Model {
     }
 
     /**
-     *
+     * @method insertar_howard_gardner
      * @param Array $p_datos
      * @return boolean
      */
-    public function insertarHowardGardner($p_datos){
+    public function insertar_howard_gardner($p_datos){
     	if($this->db->insert('mdl_user_multiple_intelligence', $p_datos)){
     		return $this->db->insert_id();
     	}
