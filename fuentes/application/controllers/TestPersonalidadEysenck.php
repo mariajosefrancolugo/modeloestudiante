@@ -110,13 +110,13 @@ class TestPersonalidadEysenck extends SMG_Controller {
 		);
 		
 		if($array_calculos['e'] >= 0 && $array_calculos['e'] <= 12){
-			$array_calculos_1['introversion'] = '1';
+			$array_calculos_1['introversion'] = $array_calculos['e'];
 		}else if($array_calculos['e'] >= 14 && $array_calculos['e'] <= 24){
-			 $array_calculos_1['extroversion'] = '1';
-		}else if($array_calculos['n'] >= 0 && $array_calculos['e'] <= 11){
-			$array_calculos_1['estabilidad'] = '1';
-	    }else if($array_calculos['n'] >= 13 && $array_calculos['e'] <= 24){
-		    $array_calculos_1['inestabilidad'] = '1';
+			 $array_calculos_1['extroversion'] = $array_calculos['e'];
+		}else if($array_calculos['n'] >= 0 && $array_calculos['n'] <= 11){
+			$array_calculos_1['estabilidad'] = $array_calculos['n'];
+	    }else if($array_calculos['n'] >= 13 && $array_calculos['n'] <= 24){
+		    $array_calculos_1['inestabilidad'] = $array_calculos['n'];
         }
 		return $array_calculos_1;
 	}
