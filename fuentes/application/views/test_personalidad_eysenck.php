@@ -7,12 +7,13 @@
     <?php $this->load->view('comunes/cabecera')?>
 </head>
 <body>
+    </br>
     <div class="container cabecera">
         <h1>Test de personalidad Eysenck</h1>
     </div>
     <div class="container">
         <!-- Menu -->
-        <?php $this->load->view('comunes/menu')?>
+        <?php //$this->load->view('comunes/menu')?>
         <br>
     </div>
     <div class="container">
@@ -63,7 +64,7 @@
             </div>
 
             <div class="form-group">
-                <label for="p6" class="control-label">6. Cuando era ni&ntilde;o(a) ¿Hacia siempre inmediatamente lo que le dec&iacute;an, sin refunfu&ntilde;ar?</label>
+                <label for="p6" class="control-label">6. Cuando era ni&ntilde;o(a) ¿Hac&iacute;a siempre inmediatamente lo que le dec&iacute;an, sin refunfu&ntilde;ar?</label>
                 <select class="form-control" name="p6" required>
                     <option value=""></option>
                     <option value="1">Si</option>
@@ -261,7 +262,7 @@
             </div>
 
             <div class="form-group">
-                <label for="p28" class="control-label">28. Cu&aacute;ndo se fastidia ¿Necesita alg&aucute;n(a) amigo(a) para hablar sobre ello?</label>
+                <label for="p28" class="control-label">28. Cu&aacute;ndo se fastidia ¿Necesita alg&uacute;n(a) amigo(a) para hablar sobre ello?</label>
                 <select class="form-control" name="p28" required>
                     <option value=""></option>
                     <option value="1">Si</option>
@@ -423,7 +424,7 @@
             </div>
 
             <div class="form-group">
-                <label for="p46" class="control-label">46. ¿Siente generalmente que las cosas se arreglaran por si solas y que terminaran bien de alg&uacute;n modo?</label>
+                <label for="p46" class="control-label">46. ¿Siente generalmente que las cosas se arreglaran por s&iacute; solas y que terminaran bien de alg&uacute;n modo?</label>
                 <select class="form-control" name="p46" required>
                     <option value=""></option>
                     <option value="1">Si</option>
@@ -459,7 +460,7 @@
             </div>
 
             <div class="form-group">
-                <label for="p50" class="control-label">50. ¿Se preocupa durante un tiempo demasiado largo, despu&eacute;s de una exp&eacute;riencia embarazosa?</label>
+                <label for="p50" class="control-label">50. ¿Se preocupa durante un tiempo demasiado largo, despu&eacute;s de una experiencia embarazosa?</label>
                 <select class="form-control" name="p50" required>
                     <option value=""></option>
                     <option value="1">Si</option>
@@ -468,7 +469,7 @@
             </div>
 
             <div class="form-group">
-                <label for="p51" class="control-label">51. ¿Se mantiene usualmente h&eacute;rnico(a) o encerrado (a) en si mismo(a), excepto con amigos muy &iacute;ntimos?</label>
+                <label for="p51" class="control-label">51. ¿Se mantiene usualmente h&eacute;rnico(a) o encerrado (a) en s&iacute; mismo(a), excepto con amigos muy &iacute;ntimos?</label>
                 <select class="form-control" name="p51" required>
                     <option value=""></option>
                     <option value="1">Si</option>
@@ -504,7 +505,7 @@
             </div>
 
             <div class="form-group">
-                <label for="p55" class="control-label">55. ¿Se siente a menudo demasiado consciente de s&iacute; mismo(a) o poco natural cuando esta con sus superiores?</label>
+                <label for="p55" class="control-label">55. ¿Se siente a menudo demasiado consciente de s&iacute; mismo(a) o poco natural cuando est&aacute; con sus superiores?</label>
                 <select class="form-control" name="p55" required>
                     <option value=""></option>
                     <option value="1">Si</option>
@@ -513,7 +514,7 @@
             </div>
 
             <div class="form-group">
-                <label for="p56" class="control-label">56. Cuando todas las posibilidades est&aacute;n contra usted, ¿Piensa aun usualmente que vale la pena intentar?</label>
+                <label for="p56" class="control-label">56. Cuando todas las posibilidades est&aacute;n contra usted, ¿Piensa a&uacute;n usualmente que vale la pena intentar?</label>
                 <select class="form-control" name="p56" required>
                     <option value=""></option>
                     <option value="1">Si</option>

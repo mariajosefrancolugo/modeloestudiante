@@ -7,12 +7,13 @@
     <?php $this->load->view('comunes/cabecera')?>
 </head>
 <body>
+    </br>
     <div class="container cabecera">
         <h1>Test Felder-Silverman</h1>
     </div>
     <div class="container">
         <!-- Menu -->
-        <?php $this->load->view('comunes/menu')?>
+        <?php //$this->load->view('comunes/menu')?>
         <br>
     </div>
     <div class="container">

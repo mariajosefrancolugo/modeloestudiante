@@ -51,6 +51,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 //$route['default_controller'] = 'testFelderSilverman';
 //$route['default_controller'] = 'testHowardGardner';
-$route['default_controller'] = 'TestPersonalidadEysenck';
+$route['default_controller'] = 'Inicio';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
