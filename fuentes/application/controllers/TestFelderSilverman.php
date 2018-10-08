@@ -45,11 +45,21 @@ class TestFelderSilverman extends SMG_Controller {
 
 		// Insertar la encuenta test Felder Silverman en la base de datos.
 		if($this->testFelderSilverman->insertar_test_felder_silverman($datos)){
-			echo "Inserto correctamente.";
+			$datos_resultado = array(
+				'dimension1activoreflexivo'		=> $datos['dimension1activoreflexivo'],
+				'dimension2sensitivointuitivo' 	=> $datos['dimension2sensitivointuitivo'],
+				'dimension3visualverbal' 		=> $datos['dimension3visualverbal'],
+				'dimension4globalsecuencial' 	=> $datos['dimension4globalsecuencial']
+			);
 		}else{
-			 echo "No inserto correctamente.";
+	         $datos_resultado = array();
 		}
-		$this->load->view('test_felder_silverman');
+
+		$this->load->view('resultado', 
+			array(
+				'datos' => $datos_resultado
+			)
+		);
 	}
 
 	/**
