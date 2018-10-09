@@ -7,13 +7,12 @@
     <?php $this->load->view('comunes/cabecera')?>
 </head>
 <body>
-    </br>
-    <div class="container cabecera">
+    <div class="container cabecera my-5">
         <h1>Test de personalidad Eysenck</h1>
     </div>
     <div class="container">
         <!-- Menu -->
-        <?php //$this->load->view('comunes/menu')?>
+        <?php $this->load->view('comunes/menu')?>
         <br>
     </div>
     <div class="container">

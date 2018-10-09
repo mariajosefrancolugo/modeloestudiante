@@ -8,12 +8,12 @@
 </head>
 <body>
     </br>
-    <div class="container cabecera">
+    <div class="container cabecera my-5">
         <h1>Test inteligencias m&uacute;ltiples de Howard Gardner</h1>
     </div>
     <div class="container">
         <!-- Menu -->
-        <?php //$this->load->view('comunes/menu')?>
+        <?php $this->load->view('comunes/menu')?>
         <br>
     </div>
     <div class="container">
