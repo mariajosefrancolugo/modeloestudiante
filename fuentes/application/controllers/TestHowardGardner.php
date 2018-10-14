@@ -39,11 +39,24 @@ class TestHowardGardner extends SMG_Controller {
 
 		// Insertar la encuenta test Howard Gardner en la base de datos.
 		if($this->testHowardGardner->insertar_howard_gardner($datos)){
-			echo "Inserto correctamente.";
+			$datos_resultado = array(
+				'linguisticaverbal'		=> "Linguistica verbal: " . $datos['linguisticaverbal'],
+				'logicamatematica' 		=> "L&oacute;gica matem&aacute;tica: " . $datos['logicamatematica'],
+				'visualespacial' 		=> "Visual espacial: " . $datos['visualespacial'],
+				'kinestesicacorporal' 	=> "Kinest&eacute;sica corporal: " . $datos['kinestesicacorporal'],
+				'musicalritmica' 		=> "Musical r&iacute;tmica: " . $datos['musicalritmica'],
+				'intrapersonal' 		=> "Intrapersonal: " . $datos['intrapersonal'],
+				'interpersonal' 		=> "Interpersonal: " . $datos['interpersonal']
+			);
 		}else{
-			 echo "No inserto correctamente.";
+	         $datos_resultado = array();
 		}
-		$this->load->view('test_howard_gardner');
+
+		$this->load->view('resultado', 
+			array(
+				'datos' => $datos_resultado
+			)
+		);
 	}
 
 	/**
